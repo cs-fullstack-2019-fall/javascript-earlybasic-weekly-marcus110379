@@ -18,14 +18,22 @@
 // }
 //    }
 
-var isValid = false;
+//var isValid = false;
 
-while(!isValid){
+while(parseInt(userInput) !== 1 || parseInt(userInput) !== 2 || userInput !== "q"){
+	if(userInput === 1){
+	 		var answer = prompt("do you want to count by ones enter yes");
+	 	}
 	
     var userInput = prompt("Welcome to Marcus's program. Press 1 to count. press 2 to use a calculator. press q to quit.");
-	if(parseInt(userInput) === 1 || parseInt(userInput) === 2 || userInput === "q"){
-	 	isValid = true;
-	 }if(userInput === 1){
-	 	var select1s = prompt(" do you want to count by ones?")
+	
+	 	
+
 	 }
-}
+//}
+
+
+// if(isValid === true && userInput === 1){
+// 	 	var select1s = prompt(" do you want to count by ones?")
+// 	 }
+
