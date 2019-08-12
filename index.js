@@ -20,6 +20,7 @@
 
 //var isValid = false;
 
+// You were on the right track. You had to expand what's in your first for loop and add the additonal userInput === 2 if statement
 while(parseInt(userInput) !== 1 || parseInt(userInput) !== 2 || userInput !== "q"){
 	if(userInput === 1){
 	 		var answer = prompt("do you want to count by ones enter yes");
